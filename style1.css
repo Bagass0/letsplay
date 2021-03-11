@@ -1,0 +1,227 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #c7c7c7;
+}
+
+header{
+	display: block;
+	background-image: url(images/header.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.titre_header{
+	color: white;
+	margin-top: 0px;
+	margin-left: 20px;
+	font-family: cursive;
+	font-size: 35px;
+	text-shadow: 5px 4px 3px black;
+}
+
+header nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-right: 0px;
+}
+
+header ul{
+	display: flex;
+	list-style: none;
+	margin-top: 0px;
+	margin-right: 200px;
+	transition: 0.5s;
+}
+
+header ul li{
+	padding: 15px 30px;
+	border-radius: 20px;
+	margin-left: 30px;
+	transition: 0.5s;
+
+}
+
+header ul li:hover{
+	background-color: rgb(230, 240, 255, 0.5);
+	transition: 0.9s;
+}
+
+header ul a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+.login_header{
+	text-decoration: none;
+	text-transform: none;
+	color: white;
+	font-family: sans-serif;
+	padding: 10px 30px;
+	background-color: rgb(36, 74, 224, 0.7);
+	border-radius: 40px;
+	margin-right: 20px;
+	margin-top: -20px;
+}
+
+.login_header:hover{
+	transition: 1s;
+	background-color: rgb(36, 74, 224, 1);
+	box-shadow: 3px 3px 10px black; 
+
+}
+
+.Bienvenue_header{
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 150px;
+
+}
+
+.Bienvenue2_header{
+	color: white;
+	text-align: center;
+	padding-bottom: 150px;
+}
+
+@media(max-width: 1200px){
+	header ul li{
+		margin-left: 0px;
+	}
+
+	header ul{
+		margin-right: 100px;
+	}
+}
+
+@media(max-width: 900px){
+	header ul a{
+	text-decoration: none;
+	color: white;
+	font-size: 17px;
+	transition: 0.3s;
+	font-family: sans-serif;
+	}
+
+	header ul{
+		margin-right: 20px;
+	}
+}
+
+@media(max-width: 750px){
+	.titre_header{
+	color: white;
+	margin-top: 0px;
+	margin-left: 20px;
+	font-family: cursive; 
+	font-size: 30px;
+	}
+
+	header nav{
+	display: flex;
+	flex-direction: column;
+	border-bottom: 2px solid white;
+	}
+
+	.login_header{
+		margin-top: 5px;
+		margin-bottom: 20px;
+		margin-left: 63px;
+
+	}
+
+}
+
+.Bienvenue_div1{
+	display: block;
+	background-image: url(images/background_discord.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	margin-top: -33px;
+	padding-bottom: 20px;
+}
+
+.Bienvenue_div1 h1{
+	font-family: cursive;
+	font-weight: bolder;
+	text-align: center;
+	color: black;
+}
+
+.Bienvenue_div1 h3{
+	color: white;
+	font-family: cursive;
+	font-size: 23px;
+	text-shadow: 0px 0px 15px #002aff;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.Bienvenue_div1 img{
+	width: 150px;
+	margin-left: 150px;
+}
+
+.Bienvenue_div1 img:hover{
+	box-shadow: 5px 5px 10px black; 
+	background-color: rgb(230, 240, 255, 0.5);
+	border-radius: 50px;
+	transition: 0.5s;
+}
+
+.assemblage_div1{
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: auto;
+}
+
+.Bienvenue_div2{
+	display: block;
+	background-color: #8423fa;
+	margin-top: -33px;
+}
+
+.Bienvenue_div2 h1{
+	color: white;
+	font-family: cursive;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.Bienvenue_div2 h3{
+	color: white;
+	font-family: cursive;
+	font-size: 20px;
+	text-shadow: 0px 0px 15px #f6ff00;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.assemblage_div2{
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Bienvenue_div2 img{
+	display: block;
+	border-radius: 40px;
+	margin-left: 180px;
+	width: 100px;
+	background-color: rgb(255, 255, 255, 0.9);
+
+}
+
+.Bienvenue_div2 img:hover{
+	transition-duration:1s, 4s;
+	border-radius: 20px;
+	background-color: rgb(255, 255, 255, 1);
+	box-shadow: 5px 8px 10px black; 
+}
